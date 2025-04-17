@@ -14,8 +14,8 @@ from denoising_diffusion.denoising_model import Unet
 from denoising_diffusion.diffusion_process import GaussianDiffusion, train
 
 # load dataset from hugging face
-# animefaces_dataset = load_dataset("jlbaker361/anime_faces_dim_128_50k", split='train')
-animefaces_dataset = load_from_disk('datasets/anime_faces')
+animefaces_dataset = load_dataset("jlbaker361/anime_faces_dim_128_50k", split='train')
+# animefaces_dataset = load_from_disk('datasets/anime_faces')
 
 # show some samples from dataset
 image_idx = np.random.randint(0, len(animefaces_dataset), size=20).tolist()
