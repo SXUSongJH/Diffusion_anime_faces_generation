@@ -1,0 +1,8 @@
+datasets==2.20.0
+einops==0.8.0
+matplotlib==3.5.2
+numpy==1.23.1
+tqdm==4.66.3
+-f https://download.pytorch.org/whl/torch_stable.html
+torch==2.0.0+cu118
+torchvision==0.15.1+cu118
