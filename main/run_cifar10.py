@@ -89,3 +89,12 @@ Gaussiandiffusion.module.get_generated_samples(current_epoch='Done')
 # save model
 torch.save(Gaussiandiffusion.module.denoise_model.state_dict(), '../results/denoise_model.pth')
 print('Denoise model successfully saved to: ../results/denoise_model.pth')
+
+
+
+
+
+
+
+
+
